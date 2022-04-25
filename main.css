@@ -4,18 +4,26 @@
   width:1020px;
   margin:0 auto;
 }
+body{
+	background: url("images/flag3.jpg") no-repeat;
+	background-repeat: no-repeat;
+    background-size: cover;	
+}
+main{
+	width:900px;
+	margin:0		
+}
 header{
-	display: flex;
-	height: 100px;
-	background-color: darkslateblue;
+	height:100px;	
 }
 header h1{
-font-family: jaf-herb, sans-serif;
-    font-weight: 700;
+	font-size: 70px;
+	font-family: jaf-herb, serif;
+    font-weight: 400;
     font-style: normal;
-	font-size: 40px;
 	text-align: center;
-	width: 100%;
+	color:red;
+	background-color:dodgerblue;
 }
 nav{
 	width:100%;
@@ -35,31 +43,60 @@ nav li{
 	
 	
 }
-.flex-container {
-   display: flex;
-   align-items: stretch;
-   height: 600px;
-   flex-direction: column;
-		
-}
-.flex-container > div{
-  background-color:darkgrey;
-  margin: 20px;
-  padding: 20px;
-  font-size: 30px
+h1{
+	font-size: 50px;
+	font-family: jaf-herb, serif;
+    font-weight: 400;
+    font-style: normal;
+	text-align: center;
+	color:black;
 	
 }
-footer{
-  display: flex;
-  width: 100%;
-  height: 100px;
-  background-color: blueviolet;
+.right{
+	width: 200px;
+	float: right;
+	align-content: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-right: 450px;
 }
-footer h1{
-  font-family: gautreaux, sans-serif;
+.clearfix {
+  overflow: auto;
+}
+.left1{
+	width: 400px; 
+	float:left;
+	margin-top:30px;
+	padding-bottom: 30px;
+	padding-left: 100px;
+	font-family: gautreaux, sans-serif;
     font-weight: 700;
     font-style: normal;
-	font-size: 50px;
-	text-align: center;
-	width: 100%;
+	font-size: 30px;
+	color:darkslategrey;
+	
+}
+.left{
+	float:left;
+    padding-top: 30px;
+	padding-left: 100px;
+	width: 300px; 
+	clear: left;
+	font-family: gautreaux, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	font-size: 30px;
+	color: black;
+}
+
+footer h1{
+font-size: 30px;
+text-align: center;
+clear: both;
+font-weight: 700;
+font-style: normal;
+width: 100%;
+font-family: gautreaux, sans-serif;
+padding-bottom: 20px;
+color:darkslategray;
 }
