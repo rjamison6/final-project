@@ -53,7 +53,7 @@ h1{
 	
 }
 .right h1{
-	width : 600px;
+	width : 300px;
 	font-size: 50px;
 	font-family: jaf-herb, serif;
     font-weight: 400;
@@ -64,7 +64,7 @@ h1{
 	
 }
 .right{
-	width: 700px;
+	width: 600px;
 	float: right;
 	align-content: 10px;
 	margin-top: 30px;
@@ -73,10 +73,10 @@ h1{
 .right1{
 	width: 300px;
 	float: right;
-	align-content: right;
+	align-content: auto;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	margin-left: 10px;
+	margin-left: 50px;
 }
 .clearfix {
   overflow: auto;
