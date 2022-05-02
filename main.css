@@ -51,7 +51,8 @@ h1{
 	
 }
 table, th, td {
-  border: none;
+  border: 1px solid black;
+  border-collapse: collapse;
 	font-family: gautreaux, sans-serif;
     font-weight: 700;
     font-style: normal;
